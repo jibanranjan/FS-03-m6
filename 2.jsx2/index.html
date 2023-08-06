@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Document</title>
+
+              <div id="root" ></div>
+              <script type="text/babel">
+
+       function Toph(){
+        return(
+            <div>
+                <h1 style={{color:"white", marginLeft:"33rem", marginTop:"17rem", fontWeight:"1900",width:"rem"}} >The Evolution of <br></br> Airbnb's Frontend</h1>
+                </div>
+        )
+       }
+
+
+       function P(){
+        return(
+            <div style={{color:"rgb(245,198,202)", marginLeft:"37rem", marginTop:"1rem", fontWeight:"1900",width:"rem"}}><h3>@spikbrehm</h3></div>
+        )
+       }
+
+
+       function I(){
+        return(
+            <div> <img src="logo.png" style={{width:"4rem", height:"4rem", marginLeft:"38rem", marginTop:"rem",  border: "solid $b rgba(#000, .7)"}} /></div>
+        )
+       }
+
+
+
+
+                function Webpage(){
+                    document.body.style.backgroundColor = 'rgb(254,90,91)';
+                    return(
+                        <div  >
+                            <Toph />
+                            <P />
+                            <I />
+        
+        </div>
+                    )
+                }
+
+
+
+ReactDOM.render(<Webpage />, document.getElementById('root'))
+              </script>
+</head>
+<body>
+    
+</body>
+</html>
