@@ -1,0 +1,8 @@
+
+.card{
+    height: 9rem;
+    width: 4rem;
+    border: 2px solid black;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}

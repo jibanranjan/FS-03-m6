@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        let toph = React.createElement("h1", null, " Jibanranjan Debata")
+        let topp = React.createElement("p",null,"Software Developer, Student at Geekster")
+        let linkedin = React.createElement("a",{href:"https://www.linkedin.com/in/jibanranjan-debata/"}, "Linkedin")
+        let github = React.createElement("a", {href:"https://github.com/jibanranjan", style:{marginLeft:"20px"}}, "Github")
+        let line = React.createElement('hr', null, null)
+ 
+
+let fstdiv = React.createElement("div",null,[toph,topp,linkedin,github,line])
+
+
+
+     let scndh2 = React.createElement("h2",null,"Experience")
+     let scndh3 = React.createElement("h3",null,"Software developer")
+     let scndp  = React.createElement("p", null, "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora cum inventore aliquam, nulla eos dignissimos ipsum voluptas id, dolores suscipit totam nostrum perferendis alias, expedita quaerat distinctio asperiores! Nobis, aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsa ab qui autem nesciunt vel consequatur non totam, temporibus excepturi voluptatem iure impedit ut repellendus earum necessitatibus nemo eligendi, animi debitis reiciendis suscipit. Unde iure obcaecati dolores, numquam quibusdam rerum facilis a quam quos ad ullam consectetur reiciendis deserunt similique.Skills" )
+     let scndline = React.createElement("hr", null, null)
+     
+
+let scnddiv = React.createElement("div", null, [scndh2,scndh3,scndp,scndline])
+
+
+     let thrdh3 = React.createElement("h3",null,"Student at Geekster")
+     let thrdp  = React.createElement("p", null, "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora cum inventore aliquam, nulla eos dignissimos ipsum voluptas id, dolores suscipit totam nostrum perferendis alias, expedita quaerat distinctio asperiores! Nobis, aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsa ab qui autem nesciunt vel consequatur non totam, temporibus excepturi voluptatem iure impedit ut repellendus earum necessitatibus nemo eligendi, animi debitis reiciendis suscipit. Unde iure obcaecati dolores, numquam quibusdam rerum facilis a quam quos ad ullam consectetur reiciendis deserunt similique.Skills" )
+     let thrdline = React.createElement("hr", null, null)
+
+
+let thrddiv = React.createElement("div", null, [thrdh3,thrdp,thrdline])
+
+
+    let frthh1 = React.createElement("h1", null, "Skills")
+    let frthlst1 = React.createElement("li", "null", "java")
+    let frthlst2 = React.createElement("li", "null", "javaScript")
+    let frthlst3 = React.createElement("li", "null", "CSS")
+    let frthlst4 = React.createElement("li", "null", "HTML")
+    
+    
+
+    
+    
+
+    
+  let frthul = React.createElement("ul", null, [frthlst1,frthlst2,frthlst3,frthlst4])
+  let frthline = React.createElement("hr", null, null)
+
+let frthdiv = React.createElement("div", null,[frthh1,frthul,frthline])
+
+
+  let fthh1 = React.createElement("h2",null,"Hobbies")
+
+  let fthlst1 = React.createElement("li", null, "Music")
+  let fthlst2 = React.createElement("li", null, "videography")
+  let fthlst3 = React.createElement("li", null, "coocking")
+  let fthlst4 = React.createElement("li", null, "riding")
+
+
+let fthol = React.createElement("Ol", null, [fthlst1,fthlst2,fthlst3,fthlst4])
+let fthdiv = React.createElement("div",null,[fthh1,fthol])
+
+
+let maindiv = React.createElement("div",null,[fstdiv,scnddiv,thrddiv,frthdiv,fthdiv])
+
+
+
+ReactDOM.render(maindiv, document.getElementById("root"))
+
+    </script>
+</body>
+</html>
