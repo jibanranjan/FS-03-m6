@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-left: 19rem;
+    margin-right: 19rem;
+    margin-bottom: 4.5rem;
+}
+
+button{
+    height: 2rem;
+    width: 5rem;
+    /* color: aliceblue; */
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(245, 112, 134);
+    cursor: pointer;
+}
+
+.whole{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+
+
+h1{
+    color: rgb(231, 148, 162);
+}
+
+.first, .second, .third, .fourth{
+    margin-top: 2rem;
+    margin-left: 19rem;
+    margin-right: 19rem;
+    margin-bottom: 2rem;
+}
