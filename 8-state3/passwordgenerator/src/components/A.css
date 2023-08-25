@@ -1,0 +1,45 @@
+.inputBox{
+    height: 2.3rem;
+    width: 47rem;
+    background-color: antiquewhite;
+    border: none;
+    position: relative;
+}
+
+
+
+.icon{
+    position: absolute;
+    top: 6.5rem;
+    right: 32rem;
+    cursor: pointer;
+}
+
+.root{
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+
+.btn{
+    height: 2.3rem;
+    width: 47rem;
+    background-color: rgb(19, 131, 149);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btndiv{
+    margin-top: 2rem;
+}
+
+
+.line{
+    display: flex;
+    gap: 35rem;
+}
+
+select{
+    height: 2rem;
+    margin-top: .5rem;
+}
